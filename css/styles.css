@@ -87,6 +87,10 @@ body {
   color: var(--accent-color);
 }
 
+.item {
+  text-decoration: none;
+}
+
 /* Hero */
 
 .hero-title {
