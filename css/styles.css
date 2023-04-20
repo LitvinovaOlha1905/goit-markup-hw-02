@@ -122,6 +122,7 @@ body {
 /* Button */
 
 .button {
+  cursor: pointer;
   background-color: var(--button-blue-color);
   color: var(--primary-white-color);
 }
@@ -188,7 +189,6 @@ body {
 
 /* Footer */
 
-/* Logo */
 .footer {
   font-family: "Raleway";
   font-style: normal;
