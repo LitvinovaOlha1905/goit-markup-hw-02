@@ -167,11 +167,11 @@ body {
 /* Footer */
 
 .footer-list {
+  font-family: "Raleway", sans-serif;
   background-color: var(--title-text-color);
 }
 
 .footer {
-  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -182,7 +182,6 @@ body {
 }
 
 .footer-studio {
-  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
