@@ -32,7 +32,7 @@ body {
 }
 
 .logo-studio {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -210,6 +210,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+}
+.services .link {
+  text-decoration: none;
 }
 
 .portfolio .link {
