@@ -4,12 +4,13 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --accent-focus-color: #404bbf;
   --accent-button-color: #f4f4fd;
 }
 body {
+  font-family: "Roboto", sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
 }
 .list {
   list-style: none;
@@ -17,7 +18,7 @@ body {
 
 /* Logo */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -54,86 +55,63 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.list {
-  list-style: none;
+  color: var(--accent-focus-color);
 }
 
 /* Address */
-.list .mail {
-  font-weight: 400;
-  font-size: 16px;
+
+.address {
   font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.mail:hover,
-.mail:focus {
-  color: var(--accent-color);
-}
-.list .tel {
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
-.tel:hover,
-.tel:focus {
-  color: var(--accent-color);
 }
 
-.item {
-  text-decoration: none;
+.list .contacts {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-focus-color);
 }
 
 /* Hero */
+
+.hero {
+  background-color: var(--title-text-color);
+}
 
 .hero-title {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
+  text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
 }
 
-.section-one-text {
-  font-style: normal;
+.button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
-  color: var(--primary-white-color);
-}
-
-/* Section */
-
-.features .title {
-  color: var(--title-text-color);
-}
-.section .title {
-  color: var(--title-text-color);
-}
-.team .title {
-  color: var(--title-text-color);
-}
-
-/* Button */
-
-.button {
-  cursor: pointer;
   background-color: var(--button-blue-color);
   color: var(--primary-white-color);
 }
 
-/* Section 1*/
+.button:hover,
+.button:focus {
+  background-color: var(--accent-focus-color);
+}
 
-.title {
+/* Section 1 2 3*/
+
+.title-features {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -150,28 +128,23 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Section 2 */
-
-.title-category {
+.title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
 }
 
-/* Section 3 */
+.section-team {
+  background-color: var(--accent-button-color);
+}
 
-.title-team {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--title-text-color);
+.team-item {
+  background-color: var(--primary-white-color);
 }
 
 .team-name {
@@ -193,8 +166,12 @@ body {
 
 /* Footer */
 
+.footer-list {
+  background-color: var(--title-text-color);
+}
+
 .footer {
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -212,7 +189,7 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--accent-button-color);
 }
 
 .footer-text {
@@ -236,11 +213,13 @@ body {
 }
 
 .portfolio .link {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
+  cursor: pointer;
   background: #f4f4fd;
   color: var(--button-blue-color);
 }
@@ -248,5 +227,23 @@ body {
 .portfolio .link:hover,
 .portfolio .link:focus {
   color: var(--primary-white-color);
-  background-color: var(--button-blue-color);
+  background-color: var(--accent-focus-color);
+}
+
+.portfolio-caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
