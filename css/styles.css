@@ -148,7 +148,7 @@ body {
 }
 
 .team-name {
-  ont-style: normal;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -166,19 +166,9 @@ body {
 
 /* Footer */
 
-.footer-list {
+.footer {
   font-family: "Raleway", sans-serif;
   background-color: var(--title-text-color);
-}
-
-.footer {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent-color);
 }
 
 .footer-studio {
@@ -209,9 +199,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-}
-.services .link {
-  text-decoration: none;
 }
 
 .portfolio .link {
